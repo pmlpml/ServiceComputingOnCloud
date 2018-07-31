@@ -26,8 +26,8 @@ title: 课程简介
 ### 2.2 课程目标
 
 * 掌握 go 语言知识，建立面向对象的编程思想，具有初步程序框架开发能力
-* 掌握 Restful 服务开发的知识， 学习 CI/CD 技术，了解前后端分离开发技术，能初步交付一个服务项目
-* 了解微服务架构，了解容器云如 Docker Swarm、Kebenetes的基本原理，能使用容器云部署项目
+* 掌握 Restful 服务开发的知识，了解前后端分离开发技术，能够使用CI/CD流程交付一个简单服务项目
+* 了解微服务架构，了解容器云如 Docker Swarm、Kebenetes的基本原理，使用容器云部署项目
 
 ## 3、课程组织与内容
 
@@ -55,6 +55,7 @@ Part III: 微服务架构与服务管理
 
 ### 3.3 大作业要求
 
+详细见：[大作业指南](homework-project)
 
 ## 4、课程其他信息
 
@@ -90,13 +91,24 @@ Part III: 微服务架构与服务管理
 
 Github 和 博客（务必设置分类，以便于检查和批改）
 
+**什么内容可以写博客？**
+
+1. 帮助小白类。系统操作指南、个人经验分享、技术科普。 例如：
+    - [在Github上创建Organization](https://chun-ge.github.io/How-to-establish-an-organization-on-Github/)
+    - [Vue极简快速入门手册](https://www.jianshu.com/p/b5cb9b30ffd8)
+    - [关于golang使用mysql以及docker的一些坑](https://blog.csdn.net/weimumu0515/article/details/78733919)
+2. 框架设计类。介绍自己的设计与实现（必须有Github实现链接）。例如：
+    - [ORM-Engine](https://github.com/smallGum/service-computing/tree/master/orm-engine)
+3. 技术研究类及其他。例如：
+    - [云端服务器部署 denyhosts 抵御 ssh brute force 攻击](https://www.zybuluo.com/longj/note/1197554)
+
 ### 5.2 考核内容
 
 |项目 | 分数 | 备注 |
 | --- |:---:| -- |
-| 平时作业 | 40 | 见课件要求 |
-| 大作业   | 40 | 见项目要求 |
-| 博客分享 | 20 | 按贡献度   |
+| 平时作业 | 40 | 见作业栏 |
+| 大作业   | 40 | [大作业指南](homework-project) |
+| 博客分享 | 20 | 按博客贡献度。贡献度标准质量+访问量 |
 
 &nbsp;
 
