@@ -19,23 +19,33 @@ title: 课程简介
 
 ## 2、课程的定位与目标
 
+### 2.1 课程的定位
+
+![](images/position.png)
+
+### 2.2 课程目标
+
+* 掌握 go 语言知识，建立面向对象的编程思想，具有初步程序框架开发能力
+* 掌握 Restful 服务开发的知识， 学习 CI/CD 技术，了解前后端分离开发技术，能初步交付一个服务项目
+* 了解微服务架构，了解容器云如 Docker Swarm、Kebenetes的基本原理，能使用容器云部署项目
+
 ## 3、课程组织与内容
 
-**课程组织:**
+### 3.1 课程组织
 
 Part I: Golang 基础
 
-> 本部分学习 Go 语言编程相关的基础知识。包括：CLI程序开发、异常处理、协程与通讯、面向对象程序编程、包与持续集成等
+> 本部分学习 Go 语言编程相关的基础知识，设计模式，以及命令行程序编程技巧。由于系统工程师的工作环境需要，课程的设定都是Linux操作系统，尽管在Windows下一切都能完美工作。包括内容：Go语言基本语法、函数、结构体与接口，并发、异常处理，面向对象程序编程、工作空间与包。CLI程序开发等。
 
 Part II: Web 服务编程与框架
 
-> Web 服务端的工作原理与程序结构。web 静态文件服务、模板输出、输入路由、表单处理、过滤器框架与设计等 Request 和 Response 相关的处理。 database/sql 包的工作原理、mysql 服务器访问、 基于 entity - dao - service 三层结构层次模型、 sql template 的设计、 xorm 简介。 客户端的编程模型？
+> Web 服务端的工作原理与程序结构。web 静态文件服务、模板输出、输入路由、表单处理、过滤器框架与设计等 Request 和 Response 相关的处理。 database/sql 包的工作原理、mysql 服务器访问、 基于 entity - dao - service 三层结构层次模型、 sql template 的设计、 xorm 简介。 CI/CD？客户端的编程模型？
 
 Part III: 微服务架构与服务管理
 
 > 讲述微服务架构，以及应用在容器云（Docker Swarm）中的部署
 
-**课程内容**
+### 3.2 课程内容
 
 | 周/次 | 课程内容 |  课后阅读 与 作业 |
 |:--:|  ---- | ---- |
@@ -43,16 +53,50 @@ Part III: 微服务架构与服务管理
 | 2 | 服务计算与Go语言 | &nbsp; |
 | 3 | Go 语言基础 | 作业：[安装 Golang 开发环境](install-go) |
 
+### 3.3 大作业要求
+
 
 ## 4、课程其他信息
 
+### 4.1 必备知识
+
+前置或并行学习知识：
+
+* 操作系统
+* 计算机网络
+* c 或 python 语言
+* （自学，大作业团队必须要有一人） 会使用 Vue，React，AngularJS，或其他 JaveScript 前端开发框架
+
+建议后续学习课程：
+
+* 云计算
+
+### 4.2 教材与参考书
+
+参考书：
+
+* Thomas Erl. _Service-Oriented Architecture: Analysis & Design for Services and Microservices_, 2nd Edition. Prentice Hall, 2016
+* Kevin Hoffman，《Cloud Native Go：构建基于Go和React的云原生Web应用与微服务》，电子工业出版社，2017
+
+### 4.3 课程支持
+
+* 教师邮箱 panml@mail.sysu.edu.cn
+* 支持 QQ 群： 851549217
 
 
 ## 5、作业提交与考核方法
 
+### 5.1 作业提交
 
+Github 和 博客（务必设置分类，以便于检查和批改）
 
+### 5.2 考核内容
 
+|项目 | 分数 | 备注 |
+| --- |:---:| -- |
+| 平时作业 | 40 | 见课件要求 |
+| 大作业   | 40 | 见项目要求 |
+| 博客分享 | 20 | 按贡献度   |
 
 &nbsp;
 
