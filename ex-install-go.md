@@ -13,9 +13,9 @@ title: Go 开发环境安装
 
 ## 1、安装 VSCode 编辑器
 
-![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 如果你是 vim 或 emacs 用户，可以忽略以下内容。
+![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 如果你是 vim 或 emacs 用户，可以忽略本段内容。
 
-如果你曾经是 Notepad++ 或 Sublime text 或 Atom 的用户，你不得不考虑改用微软 VSCode 做轻量级的编程。 JavaScript 技术，兼容几乎所有流行的操作系统，特别是对中文支持堪称完美！它不仅是跨平台多语言软件开发工具，而且是 Linux 平台写 [Github Flavored Markdown](https://github.github.com/gfm/) 的神器。[官方介绍](https://code.visualstudio.com/docs)：
+如果你曾经是 Notepad++ 或 Sublime text 或 Atom 的用户，你不得不考虑改用微软 VSCode 做轻量级的编程。 它采用 JavaScript 技术，兼容几乎所有流行的操作系统，特别是对中文支持堪称完美！它不仅是跨平台多语言软件开发工具，而且是 Linux 平台写 [Github Flavored Markdown](https://github.github.com/gfm/) 的神器。[官方介绍](https://code.visualstudio.com/docs)：
 
 > Visual Studio Code 是一个轻量级但功能强大的源代码编辑器，可在 Windows，macOS 和 Linux 桌面上运行。它内置了对JavaScript，TypeScript和Node.js的支持，并为其他语言（如C ++，C＃，Java，Python，PHP，Go）和运行时（如.NET和Unity）提供了丰富的扩展生态系统。
 
@@ -31,9 +31,9 @@ golang [中国项目组](https://go-zh.org/) 提供了近可能好的中文服�
 
 ### 3.1 安装
 
-中文安装指南位置：https://golang.org/doc/install。 然而 ... ... 链接的二进制发行文件呢？
+中文安装指南位置：https://go-zh.org/doc/install。 然而 ... ... 链接的二进制发行文件呢？
 
-用你的包管理工具，以 CentOS 7 为例：
+建议使用系统包管理工具安装，即使不是最新版本，也不影响正常使用。以 CentOS 7 为例：
 
 ```
 $ sudo yum install golang
@@ -147,7 +147,7 @@ cp $GOPATH/src/github.com/golang/tools $GOPATH/src/golang.org/x/ -rf
 **2、安装工具包**
 
 ```
-go install golang.org/x/tools/go/buildutil
+$ go install golang.org/x/tools/go/buildutil
 ```
 
 退出 vscode，再进入，按提示安装！
@@ -172,5 +172,8 @@ $ go get github.com/Go-zh/tour/gotour
 $ gotour
 ```
 
+## 作业
+
+仔细阅读 官方文档 [如何使用Go编程](https://go-zh.org/doc/code.html) ，并按文档写第一个包，做第一次测试
 
 
