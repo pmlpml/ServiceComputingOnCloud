@@ -3,20 +3,20 @@ layout: default
 title: 私有云
 ---
 
-# 使用 VirtualBox 将 PC 变为云服务器
+# 使用 VirtualBox 让 PC 提供云桌面服务
 {:.no_toc}
 
 * 目录
 {:toc}
 
-想到云计算、云平台，立马觉得高深莫测。如果你想搭建自己使用的桌面云，使用 VirtualBox 这样的开源软件，仅需要几十分钟或几个小时就如你所愿。
+想到云计算、云平台，立马觉得高深莫测。如果你想搭建自己使用的桌面云，使用 VirtualBox 这样的开源软件，仅需要几十分钟或几个小时就能如你所愿。
 
 Let's Go！
 
 ## 1、实验目的
 
-1. 初步了解虚拟化技术
-2. 为后续课程提供编程与实验提供统一的环境
+1. 初步了解虚拟化技术，理解云计算的相关概念
+2. 为后续课程提供统一的编程与实验环境
 3. 理解系统工程师面临的困境
 
 ![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 本实验需要一定的网络知识和系统方面经验，如无法独立完成，请积极与同学协作或到技术群咨询。
@@ -26,11 +26,11 @@ Let's Go！
 ![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 实验需要硬件虚拟化（AMD-V 或 Intel-VT）支持，部分旧笔记本不支持。
 
 * 用户通过互联网，使用微软远程桌面，远程访问你在PC机上创建的虚拟机
-* 虚拟机能使用 NAT 访问外网，虚拟机操作系统 Centos，Ubuntu，或 你喜欢的 Linux 发行版
+* 虚拟机操作系统 Centos，Ubuntu，或 你喜欢的 Linux 发行版，能使用 NAT 访问外网。
 
 ## 3、实验内容
 
-![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 对于系统工程师最大的困扰就是复杂的硬件和软件环境。本实验原则上支持 MAC OS, Window, 或 Linux， 但是你会遇到各种各样的操作、配置和网络问题。目前，还不能给你一个完整地、详尽地操作后决解方案。
+![](https://pmlpml.github.io/unity3d-learning/images/drf/info.png) 对于系统工程师最大的困扰就是复杂的硬件和软件环境。本实验原则上支持 MAC OS, Window, 或 Linux， 但是你会遇到各种各样的操作、配置和网络问题。目前还不能给你一个完整地、详尽地操作决解方案。
 
 1. 安装 VirtualBox
     - 安装 Git 客户端（git bash），下载地址：[官网](https://git-scm.com/downloads/)，或 [gitfor windows](https://gitforwindows.org/) 或 [github desktop](https://desktop.github.com/)
@@ -83,7 +83,7 @@ Let's Go！
 
 嗯嗯，建一个虚拟机，自己上课用。如果资源富裕，租一个给你的同学。
 
-## 实验报告与作业要求
+## 4、实验报告与作业要求
 
 **基本要求**：
 
