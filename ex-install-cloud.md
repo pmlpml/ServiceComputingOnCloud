@@ -79,7 +79,12 @@ Let's Go！
 3. 配置用远程桌面访问你的虚拟机
     - 参考：[如何设置VirtualBox虚拟机远程访问模式](https://www.jianshu.com/p/6f0f35fa2c4f)
 
-以上一些操作内容仅适用宿主（hosted）为 window 10 环境。
+以上一些操作内容仅适用宿主（hosted）为 window 10 环境，安装 CentOS 7 的操作。
+
+一些可供参考的连接：
+
+* [docker 集群网络规划与 VM 网络配置](https://blog.csdn.net/pmlpml/article/details/53786382)
+* [VirtualBox 安装 Centos 7 笔记](https://blog.csdn.net/pmlpml/article/details/51534210)
 
 嗯嗯，建一个虚拟机，自己上课用。如果资源富裕，租一个给你的同学。
 
@@ -93,7 +98,7 @@ Let's Go！
 
 帮助你的同学趟过各种“坑”。因为，如果写一篇博客，这个博客将非常长，这样博客太难读。
 
-1、找的你同学组成一个组，形成一个系列的博客，每个人介绍其中一部分或一个方面
+1、找的你同学组成一个组，形成一个系列的博客，每个人介绍其中一部分或一个方面  
 2、每个人有重点的选择其中某部分，详细介绍每一步操作。其他部分引用同学的博客
 
 
