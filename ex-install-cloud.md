@@ -45,7 +45,7 @@ Let's Go！
         - 如果是 [Centos](https://www.centos.org/download/)，仅需要 **Minimal ISO**；如果是 Ubuntu 请下载桌面和服务器
         - 阿里云[OPSX 下载](https://opsx.alibaba.com/mirror) 
     - 用 VBox 创建虚拟机。 虚拟机名称建议以 centos-xxx 或 ub-xxx 命名，**如果向导不能创建 64 bit 虚拟机，请更换电脑!!!**
-        - 建议虚拟机CPU、内存采用默认。如果是桌面版，CPU建议数2，内存不低于2G
+        - 建议虚拟机CPU、内存采用默认。如果是桌面版，CPU建议数1-2，内存不低于2G
         - 显示，显存采用默认。如果是桌面版，显存越大越好
         - 存储，不低于30G。避免以后扩展难。
         - 网络，第一块网卡必须是 NAT；第二块网卡连接方式： Host-Only，接口就是前面创建的虚拟网卡
@@ -65,6 +65,7 @@ Let's Go！
         - 配置主机名和第二块网卡
            - 使用 `nmtui` 修改主机名和第二块网卡IP地址
            - 重启
+           - 在主机上，应能 ping 到这个地址，且能通过 ssh 访问该虚拟机（windows 需启动 git bash）
         - 如果你使用 vim 或 emacs
            - 安装 vim 或 emacs
            - 安装 C++ 开发工具
@@ -74,10 +75,14 @@ Let's Go！
            - 安装桌面 `yum groupinstall "GNOME Desktop"`
            - 设置启动目标为桌面 `ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target`
            - 重启
-           - 安装 VirtualBox 扩展
+           - 安装 VirtualBox 增强功能
+               - [VirtualBox虚拟机CentOS安装增强功能Guest Additions](https://www.jianshu.com/p/7c556c783bb2)
+               - [How to Install Kernel Headers in CentOS 7](https://www.tecmint.com/install-kernel-headers-in-centos-7/)
            - 安装 Chrome 浏览器
+               - [CentOS7 使用 yum 安装 chrome](https://blog.csdn.net/pmlpml/article/details/70953626)
 3. 配置用远程桌面访问你的虚拟机
     - 参考：[如何设置VirtualBox虚拟机远程访问模式](https://www.jianshu.com/p/6f0f35fa2c4f)
+    - 虚拟机无界面启动，用户即可通过网络，使用RDP客户端访问
 
 以上一些操作内容仅适用宿主（hosted）为 window 10 环境，安装 CentOS 7 的操作。
 
