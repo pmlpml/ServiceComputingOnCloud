@@ -53,8 +53,9 @@ Part III: 微服务架构与服务管理
 | 2 | 服务计算与Go语言 | 作业：访问 AWS 产品页面，选择你感兴趣产品，用自己的语言介绍该产品。回答该产品属于 IaaS，PaaS or SaaS? |
 | 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 作业：[安装 Golang 开发环境](ex-install-go) |
 | 4 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic)| 
-| 5 | 面向对象编程 - | &nbsp; |
-
+| 5 | 面向对象编程 - |阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
+| 6 | 面向对象编程 - IO库、Corba 实现原理分析 |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
+ 
 ### 3.3 大作业要求
 
 详细见：[大作业指南](ex-project)
