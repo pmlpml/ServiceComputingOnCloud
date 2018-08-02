@@ -50,12 +50,13 @@ Part III: 微服务架构与服务管理
 | 周/次 | 课程内容 |  课后阅读 与 作业 |
 |:--:|  ---- | ---- |
 | 1 | 云计算与服务计算 | 阅读：《云计算 概念、技术与架构》 <br> 作业：[安装配置你的私有云](ex-install-cloud) |
-| 2 | 服务计算与Go语言 | 作业：访问 AWS 产品页面，选择你感兴趣产品，用自己的语言介绍该产品。并回答该产品属于 IaaS，PaaS or SaaS? |
-| 3 | Go 语言基础 | 作业：[安装 Golang 开发环境](ex-install-go) |
+| 2 | 服务计算与Go语言 | 作业：访问 AWS 产品页面，选择你感兴趣产品，用自己的语言介绍该产品。回答该产品属于 IaaS，PaaS or SaaS? |
+| 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 作业：[安装 Golang 开发环境](ex-install-go) |
+| 3 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic)| 
 
 ### 3.3 大作业要求
 
-详细见：[大作业指南](ex-homework-project)
+详细见：[大作业指南](ex-project)
 
 ## 4、课程其他信息
 
