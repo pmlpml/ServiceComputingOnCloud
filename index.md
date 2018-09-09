@@ -35,7 +35,7 @@ title: 课程简介
 
 Part I: Golang 基础
 
-> 本部分学习 Go 语言编程相关的基础知识，设计模式，以及命令行程序编程技巧。由于系统工程师的工作环境需要，课程的设定都是Linux操作系统，尽管在Windows下一切都能完美工作。包括内容：Go语言基本语法、函数、结构体与接口，并发、异常处理，面向对象程序编程、工作空间与包。CLI程序开发等。
+> 本部分学习 Go 语言编程相关的基础知识，设计模式，以及命令行程序编程技巧。由于系统工程师的工作环境需要，课程的设定都是Linux操作系统，尽管在Windows下一切都能完美工作。包括内容：Go语言基本语法、函数、结构体与接口，并发、异常处理，面向对象程序编程、工作空间与包，CLI 程序开发等。
 
 Part II: Web 服务编程与框架
 
@@ -50,7 +50,7 @@ Part III: 微服务架构与服务管理
 | 周/次 | 课程内容 |  课后阅读 与 作业 |
 |:--:|  ---- | ---- |
 | 1 | 云计算与服务计算 | 阅读：《云计算 概念、技术与架构》 <br> 作业：[安装配置你的私有云](ex-install-cloud) |
-| 2 | 服务计算与Go语言 | 作业：访问 AWS 产品页面，选择你感兴趣产品，用自己的语言介绍该产品。回答该产品属于 IaaS，PaaS or SaaS? |
+| 2 | 服务计算与Go语言 | 阅读：[服务面向的架构](http://ptgmedia.pearsoncmg.com/images/9780133858587/samplepages/9780133858587.pdf) <br> 了解：访问 AWS 产品页面，了解你感兴趣的一些产品，它们属于 IaaS，PaaS or SaaS? |
 | 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 作业：[安装 Golang 开发环境](ex-install-go) |
 | 4 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic)| 
 | 5 | 面向对象编程 - |阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
