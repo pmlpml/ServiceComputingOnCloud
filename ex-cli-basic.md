@@ -78,9 +78,11 @@ func main() {
 提示：
 
 1. 请按文档 **使用 selpg** 章节要求测试你的程序
-2. golang 文件读写、读环境变量，请自己查 os 包
-3. golang stdin 读，参考[这里](https://stackoverflow.com/questions/29060922/reading-from-stdin-in-golang)
-4. 应用程序只能修改自己的环境变量，不能修改父程序的环境变量
+2. 请使用 pflag 替代 goflag 以满足 Unix 命令行规范， 参考：[Golang之使用Flag和Pflag](https://o-my-chenjian.com/2017/09/20/Using-Flag-And-Pflag-With-Golang/)
+3. golang 文件读写、读环境变量，请自己查 os 包
+4. golang stdin 读，参考[这里](https://stackoverflow.com/questions/29060922/reading-from-stdin-in-golang)
+5. "-dXXX" 实现，请自己查 `os/exec` 库的案例，例如 `Command` 
+6. 应用程序只能修改自己的环境变量，不能修改父程序的环境变量
 
 ### 5、代码提交
 
@@ -89,6 +91,6 @@ func main() {
 
 
 参考文献：  
-[1] Package flag: https://go-zh.org/pkg/flag/
+[1] Package flag: https://go-zh.org/pkg/flag/  
 [2] Package os: https://go-zh.org/pkg/os/  
 [3] [CLI: Command Line Programming with Go](https://thenewstack.io/cli-command-line-programming-with-go/)
