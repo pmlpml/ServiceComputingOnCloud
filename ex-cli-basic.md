@@ -80,9 +80,7 @@ func main() {
 1. 请按文档 **使用 selpg** 章节要求测试你的程序
 2. 请使用 pflag 替代 goflag 以满足 Unix 命令行规范， 参考：[Golang之使用Flag和Pflag](https://o-my-chenjian.com/2017/09/20/Using-Flag-And-Pflag-With-Golang/)
 3. golang 文件读写、读环境变量，请自己查 os 包
-4. golang Pipe，参考[这里](https://stackoverflow.com/questions/29060922/reading-from-stdin-in-golang)
-5. "-dXXX" 实现，请自己查 `os/exec` 库，例如案例 [Command](https://godoc.org/os/exec#example-Command)
-6. 应用程序只能修改自己的环境变量，不能修改父程序的环境变量
+4. "-dXXX" 实现，请自己查 `os/exec` 库，例如案例 [Command](https://godoc.org/os/exec#example-Command)，管理子进程的标准输入和输出通常使用  `io.Pipe`，具体案例见 [Pipe](https://godoc.org/io#Pipe) 
 
 ### 5、代码提交
 
