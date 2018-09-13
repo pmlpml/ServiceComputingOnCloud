@@ -172,11 +172,15 @@ $ go get github.com/Go-zh/tour/gotour
 $ gotour
 ```
 
-## 作业
+## 实验报告与作业要求
 
-仔细阅读 官方文档 [如何使用Go编程](https://go-zh.org/doc/code.html) ，并按文档写第一个包，做第一次测试。**不需要提交**
+**实验报告**：
 
-**可选性作业**
+仔细阅读 官方文档 [如何使用Go编程](https://go-zh.org/doc/code.html) ，并按文档写第一个包，做第一次测试。
+
+请写在 git 仓库 Readme.md 中。
+
+**可选博客**：
 
 问题：以编写 hello.go 为例，我们需要使用 Git 在  `github.com/github-user/hello` 目录下创建 git 本地仓库并绑定 github 对应的远程仓库。常见的操作包括拉取、提交、同步等。尽管 vscode 能解决常用操作， 一旦出现错误 git 命令就是救命稻草。
 
