@@ -172,7 +172,7 @@ $ go get github.com/Go-zh/tour/gotour
 $ gotour
 ```
 
-## 实验报告与作业要求
+## 6、实验报告与作业要求
 
 **实验报告**：
 
