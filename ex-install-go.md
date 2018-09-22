@@ -139,7 +139,7 @@ $ sudo yum install git
 # 创建文件夹
 mkdir $GOPATH/src/golang.org/x/
 # 下载源码
-go get -v github.com/golang/tools
+go get -d github.com/golang/tools
 # copy 
 cp $GOPATH/src/github.com/golang/tools $GOPATH/src/golang.org/x/ -rf
 ```
