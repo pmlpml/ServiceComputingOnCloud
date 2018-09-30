@@ -3,7 +3,7 @@ layout: default
 title: 面向对象思考与 golang 编程
 ---
 
-# 面向对象思考与 golang 编程
+# 面向对象思考与cobra库实现原理分析 
 {:.no_toc}
 
 * 目录
@@ -405,7 +405,7 @@ func PrintShapes(a ...interface{}) {
 
 请问：`if v, ok := iface.(Shaper);` 中 `Shaper` 修改为 `Square`，`A4Paper`，`*A4Paper`，`Rect`，`*Rect` 各输出什么？
 
-## 3、运用面向对象的设计案例
+## 3、设计模式应用-以cobra为案例
 
 有了匿名组合，接口类型的上下Casting，函数（签名）类型，我们可以在不使用反射的条件下，实现面向对象的设计。即面向对象的设计思想可用于 golang 编程实践。
 
