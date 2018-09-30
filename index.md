@@ -52,8 +52,8 @@ Part III: 微服务架构与服务管理
 | 1 | 云计算与服务计算 | 阅读：《云计算 概念、技术与架构》 <br> 实验：[安装配置你的私有云](ex-install-cloud) |
 | 2 | 服务计算与Go语言 | 阅读：[服务面向的架构](http://ptgmedia.pearsoncmg.com/images/9780133858587/samplepages/9780133858587.pdf) <br> 了解：访问 AWS 产品页面，了解你感兴趣的一些产品，它们属于 IaaS，PaaS or SaaS? |
 | 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 实验：[安装 Golang 开发环境](ex-install-go) |
-| 4 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic) <br> 利用 [sourcegraph](https://sourcegraph.com/github.com/golang/go/-/blob/src/time/tick.go) 阅读源码 Tick 函数实现 | 
-| 5 | 面向对象编程 - |阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
+| 4 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic) <br> 了解：利用 [sourcegraph](https://sourcegraph.com/github.com/golang/go/-/blob/src/time/tick.go) 阅读源码 Tick 函数实现 <br> 验证：[使用接口与接口断言会产生性能损失吗？](https://stackoverflow.com/questions/28024884/does-a-type-assertion-type-switch-have-bad-performance-is-slow-in-go)| 
+| 5 | 面向对象编程 - [接口抽象与多态](oo-thinking)|阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
 | 6 | 面向对象编程 - IO库、Corba 实现原理分析 |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
  
 ### 3.3 大作业要求
