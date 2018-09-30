@@ -198,12 +198,17 @@ register called by TestUser
 
 由于课程 golang 部分非常快，项目涉及许多知识点，需要您分享经验和英文资料翻译，以帮助您的同学入门。主要包括：
 
-* 运用面向对象的设计思想，仅使用 `pflag` 包，实现一个简版 `pcobra` 库取代 `cobra`。并使得你的 agenda 项目能正常运行
+* 运用面向对象的设计思想，仅使用 `pflag` 包，实现一个简版 `pcobra` 库取代 `cobra`（不需要 fork cobra）。并使得你的 agenda 项目能正常运行
 * git 和 travis 在项目中的使用经验
 * log 的使用与 debug 技术
 * go 语言的一些较难理解的知识
 
 分数，就是你贡献的回报！ 请在课程群博客收集提交博客 url
+
+### 4.5 评价标准
+
+* 提交与贡献均衡性与持续性（使用 Github Insights 分析）
+* Readme 的质量
 
 # 附件：Agenda 业务需求
 
