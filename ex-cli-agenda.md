@@ -144,7 +144,7 @@ register called by TestUser
 参考文档：
 
 * [官方文档](https://github.com/spf13/cobra#overview) **推荐**
-* [Cobra简介](http://time-track.cn/cobra-brief-introduction.html) 不推荐
+* [golang命令行库cobra的使用](https://www.cnblogs.com/borey/p/5715641.html) 中文翻译
 
 ## 4、agenda 开发项目
 
