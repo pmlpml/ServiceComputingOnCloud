@@ -209,6 +209,7 @@ register called by TestUser
 
 * 提交与贡献均衡性与持续性（使用 Github Insights 分析）
 * Readme 的质量
+* 部分代码检视
 
 # 附件：Agenda 业务需求
 
