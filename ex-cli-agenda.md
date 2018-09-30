@@ -1,6 +1,10 @@
-## CLI 命令行实用程序开发实战 - Agenda
+# CLI 命令行实用程序开发实战 - Agenda
+{:.no_toc}
 
-### 1、概述
+* 目录
+{:toc}
+
+## 1、概述
 
 &emsp;&emsp;命令行实用程序并不是都象 cat、more、grep 是简单命令。[go](https://go-zh.org/cmd/go/) 项目管理程序，类似 java 项目管理 [maven](http://maven.apache.org/)、Nodejs 项目管理程序 [npm](https://www.npmjs.com/)、git 命令行客户端、 docker 与 kubernetes 容器管理工具等等都是采用了较复杂的命令行。即一个实用程序同时支持多个子命令，每个子命令有各自独立的参数，命令之间可能存在共享的代码或逻辑，同时随着产品的发展，这些命令可能发生功能变化、添加新命令等。因此，符合 [OCP 原则](https://en.wikipedia.org/wiki/Open/closed_principle) 的设计是至关重要的编程需求。
 
@@ -12,7 +16,7 @@
 4. 项目部署在 Github 上，合适多人协作，特别是代码归并
 5. 支持日志（原则上不使用debug调试程序）
 
-### 2、GO 命令
+## 2、GO 命令
 
 [GO命令](https://go-zh.org/cmd/go/) 的官方说明并不一定是最新版本。最新说明请使用命令 `go help` 获取。
 [关于GO命令](https://go-zh.org/doc/articles/go_command.html)
@@ -20,7 +24,7 @@
 必须了解的环境变量：**GOROOT，GOPATH**  
 [项目目录与 gopath](https://go-zh.org/cmd/go/#hdr-GOPATH_environment_variable)
 
-#### 2.1 go 命令的格式
+### 2.1 go 命令的格式
 
 使用：
 
@@ -49,7 +53,7 @@ version     print Go version
 vet         run go tool vet on packages
 ```
 
-#### 2.2 go 命令分类
+### 2.2 go 命令分类
 
 1. 环境显示： version、env
 2. 构建流水线： clean、build、test、run、（publish/git）、get、install
@@ -58,9 +62,9 @@ vet         run go tool vet on packages
 
 具体命令格式与参数使用 `go help [topic]`
 
-### 3、准备知识或资源
+## 3、准备知识或资源
 
-#### 3.1 Golang 知识整理
+### 3.1 Golang 知识整理
 
 这里推荐 time-track 的个人博客，它的学习轨迹与课程要求基本一致。以下是他语言学习的笔记，可用于语言快速浏览与参考：
 
@@ -76,12 +80,12 @@ vet         run go tool vet on packages
 * 指针是没有 nil 的，这可以避免一些尴尬。 `p.X` 与 `v.x` (p 指针， v 值) 在语义上是无区别的，但实现上是有区别的 `p.x` 是实现 c 语言 `p->x` 的语法糖
 * zero 值好重要
 
-#### 3.2 JSON 序列化与反序列化
+### 3.2 JSON 序列化与反序列化
 
 参考：[JSON and Go](https://blog.go-zh.org/json-and-go)  
 json 包是内置支持的，文档位置：https://go-zh.org/pkg/encoding/json/
 
-#### 3.3 复杂命令行的处理
+### 3.3 复杂命令行的处理
 
 不要轻易“发明轮子”。为了实现 POSIX/GNU-风格参数处理，--flags，包括命令完成等支持，程序员们开发了无数第三方包，这些包可以在 [godoc](https://godoc.org/) 找到。
 
@@ -142,9 +146,9 @@ register called by TestUser
 * [官方文档](https://github.com/spf13/cobra#overview) **推荐**
 * [Cobra简介](http://time-track.cn/cobra-brief-introduction.html) 不推荐
 
-### 4、agenda 开发项目
+## 4、agenda 开发项目
 
-#### 4.1 需求描述
+### 4.1 需求描述
 
 * 业务需求：见后面附件
 * 功能需求： 设计一组命令完成 agenda 的管理，例如：
@@ -166,7 +170,7 @@ register called by TestUser
 * 日志服务
     * 使用 [log](https://go-zh.org/pkg/log/) 包记录命令执行情况
 
-#### 4.2 第一周任务
+### 4.2 第一周任务
 
 1. 按 3.3 安装 cobra 并完成小案例
 2. 按需求设计 agenda 的命令与参数（制品 cmd-design.md）
@@ -180,21 +184,21 @@ register called by TestUser
 
 *问题*：如果你的项目不能公开代码，甚至不能使用 github，如何实现多人协作呢？
 
-#### 4.3 第二周任务
+### 4.3 第二周任务
 
 1. 在项目中添加 `.travis.yml` 文件，并添加测试程序。让你的项目“持续集成” -- “CI” 了！
 2. 添加 log 服务，记录用户的操作过程，以及关键的输出
 3. 约定 `entity` 和 `cmd` 之间的接口服务，实现 agenda，并在 `README.md` 文件中给出简要使用说明和测试结果
-4. （如果你有兴趣），使用 `pflag` 包，自己实现一个简版 `Command.go` 取代 `cobra`。**必须使用组合设计模式**
 
 **思考**
 
 为什么 `cobra` 的设计，让我们构建命令行程序变的如此简单？如何持续提升我们的设计能力。
 
-#### 4.4 可选任务
+### 4.4 可选任务（博客）
 
 由于课程 golang 部分非常快，项目涉及许多知识点，需要您分享经验和英文资料翻译，以帮助您的同学入门。主要包括：
 
+* 使用 `pflag` 包，自己实现一个简版 `Command.go` 取代 `cobra`。**必须使用组合设计模式**
 * go 语言的一些较难理解的知识
 * git 和 travis 在项目中的使用经验
 * log 的使用
@@ -203,7 +207,7 @@ register called by TestUser
 
 分数，就是你贡献的回报！ 请在课程群博客收集提交博客 url
 
-## 附件：Agenda 业务需求
+# 附件：Agenda 业务需求
 
 **用户注册**
 
