@@ -4,7 +4,6 @@ title: 面向对象思考与 golang 编程
 ---
 
 # 面向对象思考与 golang 编程
-
 {:.no_toc}
 
 * 目录
