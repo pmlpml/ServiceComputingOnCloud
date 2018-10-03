@@ -405,11 +405,11 @@ func PrintShapes(a ...interface{}) {
 
 请问：`if v, ok := iface.(Shaper);` 中 `Shaper` 修改为 `Square`，`A4Paper`，`*A4Paper`，`Rect`，`*Rect` 各输出什么？
 
-## 3、设计模式应用 - 以 golang cobra 为案例
+## 3、设计模式应用 - Command 对象设计
 
 有了匿名组合，接口类型的上下Casting，函数（签名）类型，我们可以在不使用反射的条件下，实现面向对象的设计。即面向对象的设计思想可用于 golang 编程实践。
 
-本节的任务是设计并用 golang 实现类似 Cobra 的 Command 。
+本节的任务是设计并用 golang 实现类似 Cobra 的 Command。
 
 * cli 涉及的设计模式
 * command.go 设计原理
