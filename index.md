@@ -56,7 +56,7 @@ Part III: 微服务架构与服务管理
 | 5 | 面向对象编程 - [接口抽象与多态，Corba 实现原理](oo-thinking)|阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
 | 6 | 面向对象编程 - [IO包流抽象及应用，包设计](oo-thinking-abstract) |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
 | 7 | web 技术 - [HTTP 协议 与 golang web 应用服务](https://blog.csdn.net/pmlpml/article/details/78404838) | 阅读：[《Golang web 应用开发》](https://github.com/astaxie/build-web-application-with-golang) <br> 了解：context 包，[Go语言并发模型：使用 context](https://segmentfault.com/a/1190000006744213)，注：现在已是正式库 [context](https://godoc.org/context#pkg-examples) |
-| 8 | web 技术 - [处理 Request 与 Response](https://blog.csdn.net/pmlpml/article/details/78539261) | 作业： 选择一个任务作为web开发练习：<br> 写一个简单 web 程序 或 阅读分析原代码 或 写一个中间件 <br> [作业提示1](ex-cloud-start) [作业提示2](ex-cloud-inout) |
+| 8 | web 技术 - [处理 Request 与 Response](https://blog.csdn.net/pmlpml/article/details/78539261) | 作业： 选择一个任务作为web开发练习：<br> 写一个简单 web 程序 或 阅读分析原代码 或 写一个中间件 <br> [作业提示1](ex-cloudgo-start) [作业提示2](ex-cloudgo-inout) |
 | 9 | web 服务 - Rest | |
 
 
