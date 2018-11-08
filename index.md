@@ -57,8 +57,8 @@ Part III: 微服务架构与服务管理
 | 6 | 面向对象编程 - [IO包流抽象及应用，包设计](oo-thinking-abstract) |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
 | 7 | web 技术 - [HTTP 协议 与 golang web 应用服务](https://blog.csdn.net/pmlpml/article/details/78404838) | 阅读：[《Golang web 应用开发》](https://github.com/astaxie/build-web-application-with-golang) <br> 了解：context 包，[Go语言并发模型：使用 context](https://segmentfault.com/a/1190000006744213)，注：现在已是正式库 [context](https://godoc.org/context#pkg-examples) |
 | 8 | web 技术 - [处理 Request 与 Response](https://blog.csdn.net/pmlpml/article/details/78539261) | 作业： 选择一个任务作为web开发练习：<br> 写一个简单 web 程序 或 原代码阅读与分析 或 写一个中间件 <br> [作业提示1](ex-cloudgo-start) [作业提示2](ex-cloudgo-inout) |
-| 9 | web 服务 - [RESTful 基础](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 阅读：[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html) |
-| 10 | web 服务 - go RESful 服务与客户端开发 || 
+| 9 | web 服务 - [RESTful 基础](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)[与实践](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 阅读：[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html) |
+| 10 | web 服务 - go RESful 服务端与客户端开发 || 
 
 
 
