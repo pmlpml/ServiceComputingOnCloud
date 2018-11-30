@@ -60,7 +60,7 @@ Part III: 微服务架构与服务管理
 | 11 | web 服务 - [RESTful 基础](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)与[实践](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 阅读：[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html) |
 | 12 | web 服务 - go RESTful 服务端与客户端开发 |了解：REST API 设计 [Github API v3 overview](https://developer.github.com/v3/) | 
 | 13 | web 服务 - 基于 RPC、REST、GraphQL 的服务 | 作业：服务构建与前后端分离的开发，[具体要求](ex-services) |
-| 14 | 云应用 - 微服务基本概念与云原生应用实践 | |
+| 14 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
 | 15 | 云应用 - 基础设施，容器作为服务（CaaS）| |
 | 16 | 云应用 - 云原生应用开发与过程 | |
 | 17 | 云应用 - 架构与模式 | |
