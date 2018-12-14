@@ -62,7 +62,7 @@ Part III: 微服务架构与服务管理
 | 13 | web 服务 - 基于 RPC、REST、GraphQL 的服务 | 作业：服务构建与前后端分离的开发，[具体要求](ex-services) |
 | 14 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
 | 15 | 云应用 - 基础设施，容器作为服务（CaaS）| |
-| 16 | 云应用 - 云原生应用开发与过程 | |
+| 16 | 云应用 - 容器化实践、云原生应用开发与过程 | 作业：[应用容器化](ex-containerization) |
 | 17 | 云应用 - 架构与模式 | |
 | 18 | 云应用 - 服务管理与治理综述| |
 
