@@ -53,17 +53,17 @@ Part III: 微服务架构与服务管理
 | 2 | 服务计算与Go语言 | 阅读：[服务面向的架构](http://ptgmedia.pearsoncmg.com/images/9780133858587/samplepages/9780133858587.pdf) <br> 了解：访问 AWS 产品页面，了解你感兴趣的一些产品，它们属于 IaaS，PaaS or SaaS? |
 | 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 实验：[安装 Golang 开发环境](ex-install-go) |
 | 4-5 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic) <br> 了解：利用 [sourcegraph](https://sourcegraph.com/github.com/golang/go/-/blob/src/time/tick.go) 阅读源码 Tick 函数实现 <br> 验证：[使用接口与接口断言会产生性能损失吗？](https://stackoverflow.com/questions/28024884/does-a-type-assertion-type-switch-have-bad-performance-is-slow-in-go)| 
-| 6-7| 面向对象编程 - [接口抽象与多态，Corba 实现原理](oo-thinking)|阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
-| 8 | 面向对象编程 - [IO包流抽象及应用，包设计](oo-thinking-abstract) |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
-| 9 | web 技术 - [HTTP 协议 与 golang web 应用服务](https://blog.csdn.net/pmlpml/article/details/78404838) | 阅读：[《Golang web 应用开发》](https://github.com/astaxie/build-web-application-with-golang) <br> 了解：context 包，[Go语言并发模型：使用 context](https://segmentfault.com/a/1190000006744213)，注：现在已是正式库 [context](https://godoc.org/context#pkg-examples) |
-| 10 | web 技术 - [处理 Request 与 Response](https://blog.csdn.net/pmlpml/article/details/78539261) | 验证：[Go HTTP Router Benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) <br> 作业： 选择一个任务作为web开发练习：<br> 写一个简单 web 程序 或 原代码阅读与分析 或 写一个中间件 <br> [作业提示1](ex-cloudgo-start) [作业提示2](ex-cloudgo-inout) |
-| 11 | web 服务 - [RESTful 基础](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)与[实践](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 阅读：[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html) |
-| 12 | web 服务 - go RESTful 服务端与客户端开发 |了解：REST API 设计 [Github API v3 overview](https://developer.github.com/v3/) | 
-| 13 | web 服务 - 基于 RPC、REST、GraphQL 的服务 | 作业：服务构建与前后端分离的开发，[具体要求](ex-services) |
-| 14 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
-| 15 | 云应用 - 基础设施，容器作为服务（CaaS）| |
-| 16 | 云应用 - 容器化实践、云原生应用开发与过程 | 作业：[应用容器化](ex-containerization) |
-| 17 | 云应用 - 架构与模式 | |
+| 6| 面向对象编程 - [接口抽象与多态，Corba 实现原理](oo-thinking)|阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
+| 7 | 面向对象编程 - [IO包流抽象及应用，包设计](oo-thinking-abstract) |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
+| 8 | web 技术 - [HTTP 协议 与 golang web 应用服务](https://blog.csdn.net/pmlpml/article/details/78404838) | 阅读：[《Golang web 应用开发》](https://github.com/astaxie/build-web-application-with-golang) <br> 了解：context 包，[Go语言并发模型：使用 context](https://segmentfault.com/a/1190000006744213)，注：现在已是正式库 [context](https://godoc.org/context#pkg-examples) |
+| 9 | web 技术 - [处理 Request 与 Response](https://blog.csdn.net/pmlpml/article/details/78539261) | 验证：[Go HTTP Router Benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) <br> 作业： 选择一个任务作为web开发练习：<br> 写一个简单 web 程序 或 原代码阅读与分析 或 写一个中间件 <br> [作业提示1](ex-cloudgo-start) [作业提示2](ex-cloudgo-inout) |
+| 10 | web 服务 - [RESTful 基础](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)与[实践](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 阅读：[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html) |
+| 11 | web 服务 - go RESTful 服务端与客户端开发 |了解：REST API 设计 [Github API v3 overview](https://developer.github.com/v3/) | 
+| 12 | web 服务 - 基于 RPC、REST、GraphQL 的服务 | 作业：服务构建与前后端分离的开发，[具体要求](ex-services) |
+| 13 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
+| 14 | 云应用 - 基础设施，容器作为服务（CaaS）| |
+| 15 | 云应用 - 容器化实践、云原生应用开发与过程 | 作业：[应用容器化](ex-containerization) |
+| 16-17 | 云应用 - 架构与模式 | |
 | 18 | 云应用 - 服务管理与治理综述| |
 
  
