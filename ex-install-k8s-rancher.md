@@ -168,6 +168,8 @@ title: kerbernetes 容器云实验环境的安装
 
 注：xip.io 是临时域名测试服务网站
 
+Ingress：[详解k8s组件Ingress边缘路由器并落地到微服务](https://www.cnblogs.com/justmine/p/8991379.html) 。其实就是 Nginx 和 K8S 官网的搬运工，组织的不错。
+
 **5.2 Workload with NodePort**
 
 1. 部署工作负载（workload）
