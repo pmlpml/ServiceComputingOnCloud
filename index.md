@@ -63,7 +63,7 @@ Part III: 微服务架构与服务管理
 | 13 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
 | 14 | 云应用 - 基础设施，容器作为服务（CaaS）| |
 | 15 | 云应用 - 容器化实践、云原生应用开发与过程 | 作业：[应用容器化](ex-containerization) |
-| 16-17 | 云应用 - 架构与模式 | 实践：[容器云实验环境](ex-install-k8s-rancher) <br> 作业：【可选】cncf 技术栈自由实践博客 |
+| 16-17 | 云应用 - 架构与模式 | 实践：[容器云实验环境](ex-install-k8s-rancher) <br> 作业：【可选】cncf 技术栈自由实践博客 [cncf landscape](https://github.com/cncf/landscape) |
 | 18 | 云应用 - 服务管理与治理综述| |
 
  
@@ -92,6 +92,7 @@ Part III: 微服务架构与服务管理
 
 * Thomas Erl. _Service-Oriented Architecture: Analysis & Design for Services and Microservices_, 2nd Edition. Prentice Hall, 2016
 * Kevin Hoffman，《Cloud Native Go：构建基于Go和React的云原生Web应用与微服务》，电子工业出版社，2017
+* Kubernetes中文指南/云原生应用架构实践手册，https://jimmysong.io/kubernetes-handbook/
 
 ### 4.3 课程支持
 

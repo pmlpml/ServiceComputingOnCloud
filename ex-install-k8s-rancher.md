@@ -13,6 +13,10 @@ title: kerbernetes 容器云实验环境的安装
 
 本文介绍在一台PC或笔记本电脑上使用 VirtualBox 配置多个虚拟机机部署 kerbernetes 集群的方法。部署工具 Rancher 
 
+实验目的：
+
+* 了解容器云基本概念！
+
 ## 1、主机（HOST）网络环境
 
 **1.1、如果你有一台路由器：**
