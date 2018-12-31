@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 制作 centos 基础 VirtualBox 虚拟机
+title: 服务计算-操作实践
 ---
 
-## 服务计算 - 操作实践 - 一、制作 centos 基础 VirtualBox 虚拟机
+## 一、制作 centos 基础 VirtualBox 虚拟机
 {:.no_toc}
 
 安装一次虚拟机需要较长的时间，安装一个 base VM 然后新 VM 建立在其上是一件省空间（对用256G以内笔记本的同学意义非凡）、省时间的事情。
@@ -11,7 +11,7 @@ title: 制作 centos 基础 VirtualBox 虚拟机
 * 目录
 {:toc}
 
-## 1、安装 minimum 系统
+### 1、安装 minimum 系统
 
 进入 centos 官网，下载 Minimum ISO 最新版本（7.6.1810），选择选阿里云镜像服务器（最快）
 
@@ -28,9 +28,9 @@ title: 制作 centos 基础 VirtualBox 虚拟机
 
 安装完成，重启虚拟机。测试：`ping 163.com` 网络正常即可！ 关机
 
-## 2、必要配置
+### 2、必要配置
 
-### 2.1 设置网卡
+#### 2.1 设置网卡
 
 * VirtualBox 配置 centos-base-250 虚拟机网络，启用添加网卡2。 
     - 连接方式： 仅主机（Host-Only）网络
@@ -61,7 +61,7 @@ title: 制作 centos 基础 VirtualBox 虚拟机
 
 Linux 网路配置基础知识 Centos7 ：[CONFIGURING NETWORK INTERFACES](http://landoflinux.com/linux_rhel_centos_network_configuration.html)
 
-### 2.2 设置 SSH
+#### 2.2 设置 SSH
 
 如果 windows 主机需要安装 Git Bash 作为控制台
 
@@ -69,7 +69,7 @@ Linux 网路配置基础知识 Centos7 ：[CONFIGURING NETWORK INTERFACES](http:
 
 这时你可以免密钥登陆它。
 
-### 2.3 配置国内 yum 源
+#### 2.3 配置国内 yum 源
 
 先 `yum install -y wget` 
 
@@ -87,7 +87,7 @@ Loading mirror speeds from cached hostfile
 
 否则：搜索 `设置centos 阿里云源` 就看到无数博客。按人家提供的步骤，将命令粘贴到控制台。
 
-### 2.4 更新系统
+#### 2.4 更新系统
 
 升级到最新系统，这几乎是安装新软件的第一步！
 
@@ -100,14 +100,3 @@ Loading mirror speeds from cached hostfile
 ```
 # shutdown -h now
 ```
-
-
-
-
-
-
-
-
-
-
-

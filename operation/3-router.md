@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 设置路由网关服务
+title: 服务计算-操作实践
 ---
 
-## 服务计算 - 操作实践 - 三、设置路由网关服务
+## 三、设置路由网关服务
 {:.no_toc}
 
 部署虚拟机集群，需要一组都能上网的虚拟机（VM），可是我们在特定场合下只有一个上网的地址。
@@ -14,13 +14,13 @@ title: 设置路由网关服务
 * 目录
 {:toc}
 
-## 准备路由虚拟机
+### 准备路由虚拟机
 
 使用链接方式在 centos-base 基础啊上创建 contos-router-254 虚拟机
 
 启动 contos-router-254，使用 nmtui 将第二块网卡设置为 192.168.56.254。
 
-## 1、关闭防火墙并安装 iptables 服务
+### 1、关闭防火墙并安装 iptables 服务
 
 检查防火墙服务
 
@@ -48,7 +48,7 @@ systemctl enable iptables && systemctl enable ip6tables
 systemctl start iptables && systemctl start ip6tables
 ```
 
-## 2、检查网卡配置
+### 2、检查网卡配置
 
 ```
 # ip addr
@@ -78,7 +78,7 @@ centos 的网卡的配置文件在 `/etc/sysconfig/network-scripts/` 目录下�
 
 阅读这些配置文件，对于理解 Linux 文本驱动的理念，以及未来自动化配置非常有价值。修改配置文件后，`systemctl restart network.service` 就生效了。
 
-## 3、配置iptables使可以访问外网
+### 3、配置iptables使可以访问外网
 
 1、首先要打开IP转发功能
 
@@ -122,7 +122,7 @@ iptables -A FORWARD -s 192.168.56.0/24 -m state --state ESTABLISHED,RELATED -j A
 service iptables save
 ```
 
-## 4、测试
+### 4、测试
 
 设置完这些之后，我们复制一台新虚拟机，第一块网卡使用 Host-Only，取消其他网卡。
 
