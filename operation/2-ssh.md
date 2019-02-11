@@ -21,6 +21,8 @@ title: 服务计算-操作实践
 
 ssh 就是使用上述原理完成用户认证与信息安全保密的。
 
+更多知识参考后面引用。
+
 ### 2、ssh 客户端与服务器的握手
 
 #### 2.1 ssh 第一次访问某个远程服务器
@@ -67,3 +69,6 @@ $ scp .ssh/id_rsa.pub root@your.domian.or.ip:/root/.ssh/authorized_keys
 这样实现了一个客户端免密登陆多台远程服务器。
 
 
+【参考】
+
+1. [数字证书原理](http://www.cnblogs.com/JeffreySun/archive/2010/06/24/1627247.html)

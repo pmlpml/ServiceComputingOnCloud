@@ -16,9 +16,9 @@ title: 服务计算-操作实践
 
 ### 准备路由虚拟机
 
-使用链接方式在 centos-base 基础啊上创建 contos-router-254 虚拟机
+使用链接方式在 centos-base 基础啊上创建 centos-router-254 虚拟机
 
-启动 contos-router-254，使用 nmtui 将第二块网卡设置为 192.168.56.254。
+启动 centos-router-254，使用 nmtui 将第二块网卡设置为 192.168.56.254。
 
 ### 1、关闭防火墙并安装 iptables 服务
 
@@ -103,7 +103,7 @@ sysctl -p
 修改数据报头信息：
 
 ```  
-iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE 
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE 
 或
 iptables -t nat -A POSTROUTING -s 192.168.56.0/24 -o enp0s3 -j MASQUERADE
 ```
@@ -153,7 +153,7 @@ reboot
 在到测试虚拟机，网通了！
 
 
-参考：
+【参考】：
 
 1. [Centos 7 网关服务器的配置](https://www.tianmaying.com/tutorial/centos7)
 2. [centos7下搭建NAT和DHCP服务器](https://blog.csdn.net/qq_41684957/article/details/81533977)
