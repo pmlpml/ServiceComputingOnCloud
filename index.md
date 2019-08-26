@@ -13,9 +13,11 @@ title: 课程简介
 
 云计算技术的飞速发展，越来越多企业借助“云”提供创新服务或改进企业生产力，云服务创新企业不断涌现，形成万亿级别的企业云服务应用开发市场。云提供商、云应用企业大量渴求了解云计算知识，能够在云上快速开发“**高性能、高可靠、高可用、可伸缩**”的企业级原生应用的人才，以满足日益增长的云服务管理、云应用开发与运维的需要。
 
-**面向服务**是云应用软件的基本特征。云计算平台管理服务、零售在线服务、第三方认证服务、移动应用服务端、在线编程服务、到超算云服务 、IoT云服务、AI云服务等等，它们通常以 web service 的形式提供。以 [Docker](https://www.docker.com/) 为代表的容器技术出现，面向服务的方法正在逐步改变软件的开发过程与开发方法。 pivotal 提出“[云原生应用/cloud-native Apps](https://pivotal.io/cn/cloud-native)” 的概念，逐步将“容器”、“微服务”、“持续集成与交付”、“DevOps”等概念串联起来。 Adam Wiggins 提出 [12 factor App](https://12factor.net/) 企业云应用宣言【[中文](http://www.infoq.com/cn/news/2012/09/12-factor-app)】，并创建了 [Heroku](https://www.heroku.com/) 云应用开发管理平台。Martin Fowler 在 2014 给出了“[微服务](http://martinfowler.com/articles/microservices.html)”架构（microservice archtecture）定义【[中文](http://mp.weixin.qq.com/s?__biz=MjM5MjEwNTEzOQ==&mid=401500724&idx=1&sn=4e42fa2ffcd5732ae044fe6a387a1cc3#rd)】，给出云应用构建的架构方法与准则。2015年，Google 发起了[云原生计算基金（CNCF）](https://www.cncf.io/)，围绕“云原生”服务云计算，服务于云服务计算[社区生态与技术框架](https://github.com/cncf/landscape)，推动相关开源项目的发展与演化，支持编排容器化微服务架构应用。
+**面向服务**是云应用软件的基本特征。云计算平台管理服务、零售在线服务、第三方认证服务、移动应用服务端、在线编程服务、到超算云服务 、IoT云服务、AI云服务等等，它们通常以 web service 的形式提供。以 [Docker](https://www.docker.com/) 为代表的容器技术出现，面向服务的方法正在逐步改变软件的开发过程与开发方法。 pivotal 提出“[云原生应用/cloud-native Apps](https://pivotal.io/cn/cloud-native)” 的概念，逐步将“容器”、“微服务”、“持续集成与交付”、“DevOps”等概念串联起来。 Adam Wiggins 提出 [12 factor App](https://12factor.net/) 企业云应用宣言【[中文](http://www.infoq.com/cn/news/2012/09/12-factor-app)】，并创建了 [Heroku](https://www.heroku.com/) 云应用开发管理平台。Martin Fowler 在 2014 给出了“[微服务](http://martinfowler.com/articles/microservices.html)”架构（microservice archtecture）定义【[中文](http://mp.weixin.qq.com/s?__biz=MjM5MjEwNTEzOQ==&mid=401500724&idx=1&sn=4e42fa2ffcd5732ae044fe6a387a1cc3#rd)】，给出云应用构建的架构方法与准则。2015年，Google 发起了[云原生计算基金（CNCF）](https://www.cncf.io/)，围绕“云原生”服务云计算，服务于云服务计算[社区生态与技术框架](https://github.com/cncf/landscape)【注1】，推动相关开源项目的发展与演化，支持编排容器化微服务架构应用。
 
-![](https://pmlpml.github.io/unity3d-learning/images/drf/exclamation.png) 本课程关注面向服务软件的开发、部署与运维技术，培养云系统服务与应用服务的开发能力。课程使用 go 语言，帮助学员尽快融入云开发生态环境。尽管每种语言都有自己面向服务的技术栈，但云基础设施与管理软件的核心多数采用 go 语言。
+![](https://pmlpml.github.io/unity3d-learning/images/drf/exclamation.png) 本课程关注面向服务软件的开发、部署与运维技术，紧随 CNCF 技术框架，培养云原生应用生态需要的开发技能。云基础设施与管理软件的核心多数采用 go 语言，课程包含 go 语言初中级知识、微服务应用架构、服务开发流水线、服务运行平台等内容，帮助学员尽快融入云开发生态环境。
+
+【注1】CNCF 技术栈和内容是动态变化的，每年都不一样
 
 ## 2、课程的定位与目标
 
@@ -80,7 +82,7 @@ Part III: 微服务架构与服务管理
 * 操作系统
 * 计算机网络
 * c 或 python 语言
-* （自学，大作业团队必须要有一人） 会使用 Vue，React，AngularJS，或其他 JaveScript 前端开发框架
+* 最好了解 Vue，React，AngularJS，或其他 JaveScript 前端开发框架
 
 建议后续学习课程：
 
