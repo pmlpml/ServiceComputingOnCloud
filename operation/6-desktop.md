@@ -81,6 +81,8 @@ sudo ./autorun.sh
 经过一段时间编译，完成后重启！
 
 
+
+
 【参考】：
 
 1. [CentOS as a Guest OS in VirtualBox](https://wiki.centos.org/HowTos/Virtualization/VirtualBox/CentOSguest)
