@@ -52,10 +52,9 @@ Part III: 微服务架构与服务管理
 | 周/次 | 课程内容 |  课后阅读 与 作业 |
 |:--:|  ---- | ---- |
 | 1 | 云计算与服务计算 | 阅读：《云计算 概念、技术与架构》 <br> 实验：[安装配置你的私有云](ex-install-cloud) |
-| 2 | 服务计算与Go语言 | 阅读：[服务面向的架构](http://ptgmedia.pearsoncmg.com/images/9780133858587/samplepages/9780133858587.pdf) <br> 了解：访问 AWS 产品页面，了解你感兴趣的一些产品，它们属于 IaaS，PaaS or SaaS? 
-<br> 阅读：[2019 全球编程语言高薪排行榜](https://www.infoq.cn/article/Rg-VCsuCA5upWatyui2C)|
+| 2 | 服务计算与Go语言 | 阅读：[服务面向的架构](http://ptgmedia.pearsoncmg.com/images/9780133858587/samplepages/9780133858587.pdf) <br> 了解：访问 AWS 产品页面，了解你感兴趣的一些产品，它们属于 IaaS，PaaS or SaaS? <br> 阅读：[2019 全球编程语言高薪排行榜](https://www.infoq.cn/article/Rg-VCsuCA5upWatyui2C)|
 | 3 | Go 语言基础 - 语法、控制、函数、包、结构、集合、工作空间组织 <br> [Go 在线之旅](https://tour.go-zh.org) | 阅读：[《学习GO语言》](https://mikespook.com/learning-go/)中文版 <br> 实验：[安装 Golang 开发环境](ex-install-go) |
-| 4-5 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic) <br> 了解：利用 [sourcegraph](https://sourcegraph.com/github.com/golang/go/-/blob/src/time/tick.go) 阅读源码 Tick 函数实现 <br> 验证：[使用接口与接口断言会产生性能损失吗？](https://stackoverflow.com/questions/28024884/does-a-type-assertion-type-switch-have-bad-performance-is-slow-in-go)| 
+| 4-5 | Go 语言基础 - 方法、接口、go程、Posix Cli| 作业：[开发简单 CLI 程序](ex-cli-basic) <br> 工具：利用 [sourcegraph](https://sourcegraph.com/github.com/golang/go/-/blob/src/time/tick.go) 阅读源码 Tick 函数实现 <br> 验证：[使用接口与接口断言会产生性能损失吗？](https://stackoverflow.com/questions/28024884/does-a-type-assertion-type-switch-have-bad-performance-is-slow-in-go)| 
 | 6| 面向对象编程 - [接口抽象与多态，Corba 实现原理](oo-thinking)|阅读：[Interfaces / OOP](https://github.com/golang/go/wiki/Articles#interfaces--oop)  |
 | 7 | 面向对象编程 - [IO包流抽象及应用，包设计](oo-thinking-abstract) |  作业：[CLI 命令行实用程序开发实战 - Agenda](ex-cli-agenda) |
 | 8 | web 技术 - [HTTP 协议 与 golang web 应用服务](https://blog.csdn.net/pmlpml/article/details/78404838) | 阅读：[《Golang web 应用开发》](https://github.com/astaxie/build-web-application-with-golang) <br> 了解：context 包，[Go语言并发模型：使用 context](https://segmentfault.com/a/1190000006744213)，注：现在已是正式库 [context](https://godoc.org/context#pkg-examples) |
