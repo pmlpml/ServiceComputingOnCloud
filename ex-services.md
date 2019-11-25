@@ -14,7 +14,7 @@
 
 ### 2、xx 开发项目
 
-1. 这个是一个团队项目，团队规模不限（建议 6 人以内）
+1. 这个是一个团队项目，团队规模建议 6 人以内
     - 必须使用github 组织管理你的项目仓库
     - 一个仓库是客户端项目，**必须** 使用富客户端js框架。建议框架包括（[VUE.js](https://cn.vuejs.org/),[Angular](https://angular.cn/features),[React](https://reactjs.org/)）
     - 一个仓库是服务端项目，你可以选择 RPC 风格、REST 风格、 GraphQL 构建服务
