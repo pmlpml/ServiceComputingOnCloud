@@ -62,7 +62,7 @@ Part III: 微服务架构与服务管理
 | 10 | web 服务 - [RESTful 基础](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)与基于资源的 API [实践](https://www.infoq.cn/article/designing-restful-http-apps-roth) | 规范：REST API 设计 [Github API v3 overview](https://developer.github.com/v3/) ；[微软](https://docs.microsoft.com/zh-cn/azure/architecture/best-practices/api-design) <br> 作业：模仿 Github，设计一个博客网站的 API |
 | 11 | web 服务 - go RESTful 服务端与客户端开发 | | 
 | 12 | web 服务 - 基于 RPC、REST、GraphQL 的服务 | 作业：服务构建与前后端分离的开发，[具体要求](ex-services) |
-| 13 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做**[部署一个云原生本地实验环境](https://jimmysong.io/kubernetes-handbook/cloud-native/cloud-native-local-quick-start.html)。提交要求：博客 <br> 阅读：[8 Steps to Becoming Awesome with Kubernetes](https://github.com/rootsongjc/cloud-native-slides-share/blob/master/kubernetes/8-Steps-to-Becoming-Awesome-with-Kubernetes-readhat-burrsutter.pdf)|
+| 13 | 云应用 - 微服务基本概念与云原生应用实践 | 实验：**选做** 部署Kubernetes（与TA咨询）。提交要求：博客 |
 | 14 | 云应用 - 基础设施，容器作为服务（CaaS）| |
 | 15 | 云应用 - 容器化实践、云原生应用开发与过程 | 作业：[应用容器化](ex-containerization) |
 | 16-17 | 云应用 - 架构与模式 | 实践：[容器云实验环境](ex-install-k8s-rancher) <br> 作业：【可选】cncf 技术栈自由实践博客 [cncf landscape](https://github.com/cncf/landscape) |
